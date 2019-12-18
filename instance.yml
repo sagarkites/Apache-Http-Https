@@ -1,0 +1,15 @@
+---
+ - hosts: local
+   tasks:
+   - name: Ec2 Instance
+     ec2:
+      key_name: test-subject
+      instance_type: t2.micro
+      image: ami-00068cd7555f543d5 
+      wait: yes
+      region: us-east-1
+      group: default
+      count: 1
+      vpc_subnet_id: subnet-07ba5a4a
+      assign_public_ip: yes
+       
