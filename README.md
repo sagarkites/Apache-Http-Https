@@ -1,5 +1,6 @@
-# Apache httpd-https 
-* get the Instance-details amd-id, subnet-id, sg-id, and name of key-pair that you crreated
+# Apache httpd-https
+# prerequisites
+* Grab the Instance-details amd-id, subnet-id, sg-id, and name of key-pair that you crreated
 * Run the playbook - ansible-playbook instance.yml
 * dynamic inventory - get the aws api responses dynamically with respect to Regions 
 * chmod 755 ec2.py 
