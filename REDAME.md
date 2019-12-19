@@ -1,4 +1,4 @@
-# Apache httpd-https in Ec2-instance 
+# Apache httpd-https 
 * get the Instance-details amd-id, subnet-id, sg-id, and name of key-pair that you crreated
 * Run the playbook - ansible-playbook instance.yml
 * dynamic inventory - get the aws api responses dynamically with respect to Regions 
